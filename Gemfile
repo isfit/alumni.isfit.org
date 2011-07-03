@@ -13,7 +13,8 @@ gem 'coffee-script'
 gem 'uglifier'
 
 gem 'jquery-rails'
-gem 'mysql2'
+#gem 'mysql2'
+gem 'mysql'
 gem 'cancan'
 
 
@@ -21,7 +22,7 @@ gem 'cancan'
 gem 'capistrano'
 
 # To use debugger
-gem 'ruby-debug19', :require => 'ruby-debug'
+#gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test do
   # Pretty printed test output
